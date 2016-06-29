@@ -1,5 +1,5 @@
 {
-    "name": "RSR Live Timing Content Manager Support (Assetto Corsa)",
+    "name": "RSR Live Timing Content Manager Support",
     "short_name": "RSR Content Manager Support",
     "offline_enabled": false,
     "description": "Adds Content Manager support to RSR Live Timing: buttons for quick start, quick setups installation.",
