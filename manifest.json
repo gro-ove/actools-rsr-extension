@@ -1,0 +1,26 @@
+{
+    "name": "RSR Live Timing Content Manager Support (Assetto Corsa)",
+    "short_name": "RSR Content Manager Support",
+    "offline_enabled": false,
+    "description": "Adds Content Manager support to RSR Live Timing: buttons for quick start, quick setups installation.",
+    "version": "0.1",
+    "icons": {
+        "128": "icon-128.png",
+        "16": "icon-16.png",
+        "48": "icon-48.png"
+    },
+    "content_scripts": [ 
+        {
+            "all_frames": false,
+            "js": [ "content.js" ],
+            "matches": [
+                "http://www.radiators-champ.com/RSRLiveTiming/*"
+            ],
+            "run_at": "document_end"
+        } 
+    ],
+    "permissions": [ "http://www.radiators-champ.com/RSRLiveTiming/*" ],
+    "manifest_version": 2,
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "web_accessible_resources": ["icon-48.png"]
+}
